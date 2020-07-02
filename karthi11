@@ -1,0 +1,65 @@
+
+a=[]
+sum=0
+b=int(input("number of elements??:"))
+for i in range(b):
+    c=int(input("enter elements into list :"))
+    a.append(c)
+    sum+=c
+    
+print(a)
+print(sum)
+
+
+
+
+
+n = 3
+l = [{} for a in range(n)]
+print(l)
+
+
+
+
+
+acc = {'randomforest': 80, 'decisiontree': 90, 'SVM': 86}
+print(list(acc)[2])
+SVM
+
+
+
+        
+        
+d = {'perk': 1, 'fivestar': 2, 'munch': 3} 
+for key, value in d.items():
+     print(key, 'is: ', d[key])
+perk is:  1
+fivestar is:  2
+munch is:  3
+
+
+
+
+
+my_dict = {'data1':100,'data2':-54,'data3':247}
+a=list((my_dict.values()))
+sum=0
+for i in a:
+    sum+=i    
+print(a)
+print(sum)
+
+
+
+
+
+
+ 
+ 
+dic1={1:10, 2:20}
+dic2={3:30, 4:40}
+dic3={5:50,6:60}
+dic4 = {}
+for d in (dic1, dic2, dic3):
+    dic4.update(d)                       ##update
+print(dic4)
